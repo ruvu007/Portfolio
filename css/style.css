@@ -176,7 +176,7 @@ header {
 
 .cv {
   color: white;
-  margin-top: 10.5rem;
+  margin-top: 9rem;
   padding: 1em;
   border-style: solid;
 }
@@ -201,5 +201,8 @@ header {
     padding-top: 1rem;
     padding-right: 1rem;
     font-size: 3vw;
+  }
+  .cv {
+    margin-top: 2rem;
   }
 }
