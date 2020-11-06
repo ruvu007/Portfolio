@@ -186,6 +186,29 @@ header {
   background-color: white;
 }
 
+/* Footer */
+
+.footer {
+  background-color: #1E1E1E;
+  padding: 5em;
+}
+
+.footer-inhoud {
+  color: white;
+  margin-top: 5em;
+}
+
+.footer-inhoud-gegevens {
+  text-align: center;
+}
+
+.footer-inhoud-gegevens--link {
+  color: navy;
+  border-bottom: solid 1px white;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
 /* Media queries */
 
 @media only screen and (max-width: 991px) {
@@ -202,7 +225,12 @@ header {
     padding-right: 1rem;
     font-size: 3vw;
   }
+
   .cv {
     margin-top: 2rem;
+  }
+
+  .footer-inhoud-uitleg {
+    margin-left: 10rem;
   }
 }
