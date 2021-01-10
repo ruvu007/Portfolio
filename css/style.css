@@ -142,6 +142,29 @@ header {
   text-align: center;
 }
 
+.knop {
+  color: white;
+  padding: 1em;
+  border-style: solid;
+  margin-top: .3em;
+}
+
+.knop:hover {
+  color: black;
+  background-color: white;
+}
+
+.projlinks {
+  display:flex;
+}
+.projlinks .gh {
+  flex: 0;
+}
+.projlinks .lv {
+  flex: 1;
+}
+
+
 @media only screen and (max-width: 700px) {
   .autogrid {
     width: 100%;
@@ -203,7 +226,7 @@ header {
 }
 
 .footer-inhoud-gegevens--link {
-  color: navy;
+  color: white;
   border-bottom: solid 1px white;
   padding-bottom: 3px;
   text-decoration: none;
